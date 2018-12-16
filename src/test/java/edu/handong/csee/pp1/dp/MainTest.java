@@ -28,7 +28,7 @@ public class MainTest {
 		// 위 test main을 참고하여 실행하면 됨.
 		String[] args = {"/Users/lim-eunchae/git/test/Java","data/Java.arff"};
 		
-		assertEquals(args.length,2);
+		assertEquals(args.length,3);
 		
 		Main.main(args);
 	}
