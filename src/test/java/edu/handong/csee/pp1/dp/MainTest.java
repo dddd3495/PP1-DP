@@ -7,7 +7,7 @@ import org.junit.Test;
 public class MainTest {
 
 	@Test
-	public void testMain() {
+	public void testMain() {//a
 		// Put a GitHub repository path you cloned in your laptop.
 		// \\는 윈도우즈 경로의 \가 특수문자라 제대로된 문자로 표시하기 위해 \\ 이렇게 쓰는 것임.
 		// TASK1 TODO 아래 args적절히 수정. MetricCollector.java를 완성하면, arff파일에 다양한 값들을 볼 수 있음.
@@ -16,7 +16,7 @@ public class MainTest {
 		String[] args = {"/Users/lim-eunchae/git/test/PP1-DP","data/PP1-DP.arff"};
 		// String[] args = {"/use/this/style/for/your/path"}; // for mac users
 		
-		assertEquals(args.length,2);
+		assertEquals(args.length,3);
 		
 		Main.main(args);
 	}
