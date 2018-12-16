@@ -16,7 +16,7 @@ public class MainTest {
 		String[] args = {"/Users/lim-eunchae/git/test/PP1-DP","data/PP1-DP.arff"};
 		// String[] args = {"/use/this/style/for/your/path"}; // for mac users
 		
-		assertEquals(args.length,3);
+		assertEquals(args.length,10);
 		
 		Main.main(args);
 	}
